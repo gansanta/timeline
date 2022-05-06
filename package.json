@@ -1,0 +1,19 @@
+{
+  "name": "timeline",
+  "version": "3.3.0",
+  "description": "Timeline for anything",
+  "main": "main.js",
+  "author": {
+    "name": "Gansanta Bhikkhu"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build-exe": "electron-packager . --platform=win32 --arch=x64 timeline --icon='C:/Users/ASUS/source/mygithubrepos/projectassets/timeline/assets/images/timeline.ico' --extra-resource='C:/Users/ASUS/source/mygithubrepos/projectassets/timeline/assets/'"
+  },
+  "devDependencies": {
+    "electron": "^16.0.4"
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}

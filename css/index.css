@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    min-width: 1000px;
+    min-height: 500px;
+    height: auto;
+    width: auto;
+    border: 2px solid rgb(230, 8, 26);
+    background-color: rgb(50, 69, 87);
+}
+
+#maincontent{
+    height: 100%;
+    width: 100%;
+    min-width: 1000px;
+    min-height: 500px;
+    border: 2px solid rgb(230, 8, 26);
+    background-color: rgb(50, 69, 87);
+}
+
+.textdiv{
+    border: 1px solid green;
+    padding: 10px;
+    font-size: larger;
+    position: fixed;
+    min-width: 200px;
+    z-index: 1;
+    opacity: 100;
+    background-color: white;
+    opacity: 100;
+}
+.svgcircle{
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+.gall{
+    border: 1px solid red;
+}
+#svgtest{
+    border: 5px solid rgb(5, 233, 43);
+    
+}
+#container{
+    position: relative;
+}
