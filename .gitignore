@@ -2,3 +2,4 @@ node_modules/
 timeline-win32-x64/
 windows_installer/
 timeline-win32-x64.7z
+package-lock.json
